@@ -1,0 +1,247 @@
+body {
+    background: floralwhite;
+    margin: 5px;
+}
+
+.logo{
+    text-align: center;
+    background: url(images/page.jpg) no-repeat;
+    background-size: cover;
+    margin: -5px;
+}
+
+.logo img {
+    border-radius: 50%;
+    opacity: 0.8
+}
+
+.main-heading {
+/*    background: rgba(255, 255, 255, 0.42);*/
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-family: fantasy;
+    font-size: 2em;
+    letter-spacing: .3em;
+    text-decoration: underline;
+}
+
+nav {
+    clear: both;
+    text-align: center;
+    margin: px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+nav a {
+    color: white;
+    font-family: fantasy;
+    font-size: 1.2em;
+    margin: 1px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.main_window {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.1), white);
+    text-align: center;
+}
+
+.main_window img {
+    box-shadow: 0px 2px 5px;
+    background: black;
+/*    margin-right: 10px;*/
+    margin-bottom: 6px;
+}
+
+.main-dish-info {
+    font-family: sans-serif;
+}
+
+.cook-now-link {
+    text-decoration: none;
+    padding: 2px;
+    font-size: 30px;
+    font-family: impact;
+    color: #999;
+    background: whitesmoke;
+    box-shadow: 0px 0px 5px;
+}
+
+.cook-now-link:hover {
+    color: whitesmoke;
+    background: #999;
+}
+
+hr {
+    clear: both;
+}
+
+.dish-col {
+    text-align: center;
+}
+
+.dish1-col, .dish2-col {
+    width: 438px;
+    height: 350px;
+    display: inline-block;
+    background: #999;
+    margin: 10px;
+    padding: 8px;
+    color: aliceblue;
+}
+
+.dish1-col {
+    background: url(images/Stew.jpg) no-repeat;
+    background-size: cover;
+}
+
+.dish2-col {
+    background: url(images/Steak.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dish-col-title {
+    font-size: 30px;
+    letter-spacing: .2em;
+    text-decoration: underline;
+}
+
+.beef-details {
+    font-size: 1.5em
+}
+
+.steak-details {
+    font-size: 25px
+}
+
+.cook-btn {
+    text-decoration: none;
+    padding: 5px;
+    color: ghostwhite;
+    cursor: pointer;
+    background: rgba(200, 200, 200, 0.3);
+    font-family: impact;
+}
+
+.cook-btn:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 100, 0.3);
+}
+
+.search {
+    margin: 5px;
+    clear: both;
+    text-align: center;
+}
+.search-btn {
+    border: none;
+    padding: 5px;
+    font-family: monospace;
+    background: #888;
+    box-shadow: 0px 0px 2px;
+}
+
+.search-box {
+    text-align: center;
+    border: none;
+    margin: 5px;
+    padding: 5px 5px;
+    font-family: fantasy;
+    box-shadow: 0px 0px 5px;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+    background: #999;
+    box-shadow: 0px 0px 5px;
+}
+
+.directions {
+    display: inline-block;
+    padding: 5px 5px 5px 0px;
+    border-bottom: solid grey;
+    border-right: solid gray;
+    color: #444;
+}
+
+#Spaghetti ul {float: left}
+
+li {list-style: none;}
+
+ul {margin-top: -20px}
+
+.dish i {font-size: 180%; border: solid #999; padding: 12px 10px; float: left; clear: both; margin: 0px 5px}
+
+.recipes img {
+    clear: both;
+    margin: 5px;
+    background: #666;
+    box-shadow: 0px 0px 10px;
+}
+
+.dir-devider {
+    visibility: hidden;
+}
+
+b {
+    font-size: 35px;
+    letter-spacing: .2em;
+    text-decoration: underline;
+    text-shadow: 0px 5px 5px #999;
+}
+
+.recipes a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    clear: both;
+    background: #999;
+    padding: 5px;
+    font-family: monospace;
+    box-shadow: 0px 0px 2px black;
+    float: right;
+}
+
+.top:hover {background: #888;}
+
+.share {display: inline-block; margin: 0px; text-decoration: underline}
+
+.suggestions-section {
+    margin-top: 10px;
+    padding: 20px 90px;
+    display: inline-block;
+    box-shadow: -5px 5px 5px
+}
+.name {
+    text-transform: capitalize;
+    padding: 5px
+}
+.email, .website {
+    padding: 5px;
+}
+.recipename {text-transform: capitalize}
+.submit-btn {
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px
+}
+
+.submit-btn:hover {background: #999}
+
+footer {
+    clear: both;
+    margin: 10px;
+    padding: 5px;
+/*    background: #999;*/
+    text-align: center;
+    font-family: monospace;
+}
+#logo {border-radius: 100%}
